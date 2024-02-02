@@ -16,11 +16,11 @@ CONFIDENCE_THRESHOLD = 0.5
 def send_duo_push_notification():
     integration_key = 'YOUR_INTEGRATION_KEY'
     secret_key = 'YOUR_SECRET_KEY'
-    api_hostname = 'api-766f6bd3.duosecurity.com'
+    api_hostname = 'api-XXXXXXXX.duosecurity.com'
 
     # Prepare the request parameters
     payload = {
-        'username': 'Lathish B',  # Replace with the username associated with the Duo account
+        'username': 'XXXXXXX',  # Replace with the username associated with the Duo account
         'pushinfo': 'Bottle detected!',
         'type': 'Push',
     }
